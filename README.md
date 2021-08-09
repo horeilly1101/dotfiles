@@ -10,6 +10,6 @@ dotfiles as symbolic links in the home directory. To run it, simply execute
 
 ## Misc.
 
-I like [this theme](https://draculatheme.com/iterm) for iterm and [this theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) for vscode. 
+I use [this theme](https://draculatheme.com/iterm) for iterm and [this theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) for vscode. 
 
-I like [oh my zsh](https://ohmyz.sh/#install) with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
+I use [oh my zsh](https://ohmyz.sh/#install) with the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
