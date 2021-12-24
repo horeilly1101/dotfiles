@@ -86,3 +86,37 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+
+call plug#begin()
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+call plug#end()
+
+" Some Linux distributions set filetype in /etc/vimrc.
+" Clear filetype flags before changing runtimepath to force Vim to reload them.
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
+
+" Don't highlight matching parentheses with the same color as the cursor.
+" https://stackoverflow.com/questions/10746750/set-vim-bracket-highlighting-colors
+hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
+
+" Open vsp windows on the right.
+:set splitright
+
+" Configure vim-go.
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_auto_type_info = 1
+let g:go_auto_sameids = 1 
+let g:go_highlight_function_parameters = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_generate_tags = 1
+let g:go_highlight_variable_declarations = 1
+let g:go_highlight_variable_assignments = 1 
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+
