@@ -4,9 +4,7 @@
 ## What it does
 
 This repo organizes some of the basic info that I need to set up a new macbook
-with my preferred configurations, and it has a script to install the included
-dotfiles as symbolic links in the home directory. To run it, simply execute
-`./setup.sh` in the `dotfiles` directory.
+with my preferred configurations. Run `setup.sh` to set up the terminal.
 
 ## Misc.
 
